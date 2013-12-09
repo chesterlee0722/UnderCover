@@ -13,14 +13,17 @@
 		D30E790A1854BBBD00C85FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30E79081854BBBD00C85FD0 /* InfoPlist.strings */; };
 		D30E790C1854BBBD00C85FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E790B1854BBBD00C85FD0 /* main.m */; };
 		D30E79101854BBBD00C85FD0 /* LYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E790F1854BBBD00C85FD0 /* LYAppDelegate.m */; };
-		D30E79131854BBBD00C85FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30E79111854BBBD00C85FD0 /* Main.storyboard */; };
-		D30E79161854BBBD00C85FD0 /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E79151854BBBD00C85FD0 /* LYViewController.m */; };
 		D30E79181854BBBD00C85FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30E79171854BBBD00C85FD0 /* Images.xcassets */; };
 		D30E791F1854BBBD00C85FD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30E791E1854BBBD00C85FD0 /* XCTest.framework */; };
 		D30E79201854BBBD00C85FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30E78FF1854BBBD00C85FD0 /* Foundation.framework */; };
 		D30E79211854BBBD00C85FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30E79031854BBBD00C85FD0 /* UIKit.framework */; };
 		D30E79291854BBBD00C85FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30E79271854BBBD00C85FD0 /* InfoPlist.strings */; };
 		D30E792B1854BBBD00C85FD0 /* UnderCoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E792A1854BBBD00C85FD0 /* UnderCoverTests.m */; };
+		D30E79371854BC4900C85FD0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E79351854BC4900C85FD0 /* RootViewController.m */; };
+		D30E79381854BC4900C85FD0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30E79361854BC4900C85FD0 /* RootViewController.xib */; };
+		D30E79811854C7EB00C85FD0 /* RootNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E79801854C7EB00C85FD0 /* RootNavigationBar.m */; };
+		D30E79891854CE8F00C85FD0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30E79871854CE8F00C85FD0 /* FirstViewController.m */; };
+		D30E798A1854CE8F00C85FD0 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30E79881854CE8F00C85FD0 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,21 @@
 		D30E790D1854BBBD00C85FD0 /* UnderCover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnderCover-Prefix.pch"; sourceTree = "<group>"; };
 		D30E790E1854BBBD00C85FD0 /* LYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAppDelegate.h; sourceTree = "<group>"; };
 		D30E790F1854BBBD00C85FD0 /* LYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAppDelegate.m; sourceTree = "<group>"; };
-		D30E79121854BBBD00C85FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D30E79141854BBBD00C85FD0 /* LYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYViewController.h; sourceTree = "<group>"; };
-		D30E79151854BBBD00C85FD0 /* LYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYViewController.m; sourceTree = "<group>"; };
 		D30E79171854BBBD00C85FD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D30E791D1854BBBD00C85FD0 /* UnderCoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnderCoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30E791E1854BBBD00C85FD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D30E79261854BBBD00C85FD0 /* UnderCoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnderCoverTests-Info.plist"; sourceTree = "<group>"; };
 		D30E79281854BBBD00C85FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D30E792A1854BBBD00C85FD0 /* UnderCoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderCoverTests.m; sourceTree = "<group>"; };
+		D30E79341854BC4900C85FD0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D30E79351854BC4900C85FD0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D30E79361854BC4900C85FD0 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D30E797F1854C7EB00C85FD0 /* RootNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationBar.h; sourceTree = "<group>"; };
+		D30E79801854C7EB00C85FD0 /* RootNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationBar.m; sourceTree = "<group>"; };
+		D30E79821854C9F800C85FD0 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		D30E79861854CE8F00C85FD0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D30E79871854CE8F00C85FD0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D30E79881854CE8F00C85FD0 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +123,15 @@
 			children = (
 				D30E790E1854BBBD00C85FD0 /* LYAppDelegate.h */,
 				D30E790F1854BBBD00C85FD0 /* LYAppDelegate.m */,
-				D30E79111854BBBD00C85FD0 /* Main.storyboard */,
-				D30E79141854BBBD00C85FD0 /* LYViewController.h */,
-				D30E79151854BBBD00C85FD0 /* LYViewController.m */,
+				D30E797F1854C7EB00C85FD0 /* RootNavigationBar.h */,
+				D30E79801854C7EB00C85FD0 /* RootNavigationBar.m */,
+				D30E79341854BC4900C85FD0 /* RootViewController.h */,
+				D30E79351854BC4900C85FD0 /* RootViewController.m */,
+				D30E79361854BC4900C85FD0 /* RootViewController.xib */,
+				D30E79861854CE8F00C85FD0 /* FirstViewController.h */,
+				D30E79871854CE8F00C85FD0 /* FirstViewController.m */,
+				D30E79881854CE8F00C85FD0 /* FirstViewController.xib */,
+				D30E79821854C9F800C85FD0 /* CommonDefine.h */,
 				D30E79171854BBBD00C85FD0 /* Images.xcassets */,
 				D30E79061854BBBD00C85FD0 /* Supporting Files */,
 			);
@@ -231,7 +246,8 @@
 			files = (
 				D30E79181854BBBD00C85FD0 /* Images.xcassets in Resources */,
 				D30E790A1854BBBD00C85FD0 /* InfoPlist.strings in Resources */,
-				D30E79131854BBBD00C85FD0 /* Main.storyboard in Resources */,
+				D30E79381854BC4900C85FD0 /* RootViewController.xib in Resources */,
+				D30E798A1854CE8F00C85FD0 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +268,9 @@
 			files = (
 				D30E790C1854BBBD00C85FD0 /* main.m in Sources */,
 				D30E79101854BBBD00C85FD0 /* LYAppDelegate.m in Sources */,
-				D30E79161854BBBD00C85FD0 /* LYViewController.m in Sources */,
+				D30E79891854CE8F00C85FD0 /* FirstViewController.m in Sources */,
+				D30E79371854BC4900C85FD0 /* RootViewController.m in Sources */,
+				D30E79811854C7EB00C85FD0 /* RootNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +299,6 @@
 				D30E79091854BBBD00C85FD0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D30E79111854BBBD00C85FD0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D30E79121854BBBD00C85FD0 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D30E79271854BBBD00C85FD0 /* InfoPlist.strings */ = {
@@ -379,10 +389,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shuoqi chen (R72PFZE3HQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnderCover/UnderCover-Prefix.pch";
 				INFOPLIST_FILE = "UnderCover/UnderCover-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AF243DE1-319D-412A-A106-713379DAC9FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +404,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shuoqi chen (R72PFZE3HQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnderCover/UnderCover-Prefix.pch";
 				INFOPLIST_FILE = "UnderCover/UnderCover-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AF243DE1-319D-412A-A106-713379DAC9FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

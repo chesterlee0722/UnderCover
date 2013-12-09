@@ -7,12 +7,24 @@
 //
 
 #import "LYAppDelegate.h"
+#import "RootViewController.h"
+#import "RootNavigationBar.h"
+#import "CommonDefine.h"
 
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    RootViewController *rootVC = [[RootViewController alloc] init];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
+//    UINavigationController *navVC = [[UINavigationController alloc] initWithNavigationBarClass:[RootNavigationBar class] toolbarClass:NULL];
+//    [navVC setViewControllers:@[rootVC]];
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
     return YES;
 }
 							
